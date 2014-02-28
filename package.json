@@ -1,0 +1,26 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "~3.4.8",
+    "jade": "*",
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "jshint": "~2.4.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.8.0",
+    "chai": "~1.9.0",
+    "grunt-simple-mocha": "~0.4.0"
+  }
+}
+// I changed this line
+// "cmd": ["node", "$file", "$file_base_name"],
+// /Users/jn/Library/Application Support/Sublime Text 3/Packages/User/Node.sublime-build
